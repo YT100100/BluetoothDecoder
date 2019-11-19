@@ -1,0 +1,10 @@
+Package: BluetoothDecoder
+Title: Convert csv files recorded by BluetoothRecoder
+Version: 0.0.0.9000
+Authors@R: person("Yusuke", "Toda", email = "toda@ut-biomet.org", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.4.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
