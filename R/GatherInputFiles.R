@@ -76,6 +76,7 @@ checkInputFiles <- function(inputPath, validationPath) {
 
   # get file names of input
   inputFileNames <- findCSV(inputPath)
+  if (length(inputFileNames) == 0) stop('No input file found.')
 
   # get validation data
   val <- readValidation(validationPath)
